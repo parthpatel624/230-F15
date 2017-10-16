@@ -1,5 +1,5 @@
 
-public class Decagon {
+public class Decagon implements Shape {
 	private double sideLength;
 	private int numsides = 10;
 	

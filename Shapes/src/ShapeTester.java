@@ -12,10 +12,11 @@ public class ShapeTester {
 		//shapes.add(triangle);
 	    Shape circle 	= new Circle();
 	    Shape triangle 	= new Triangle(10.5);
-
+	    Shape decagon = new Decagon();
+	    shapes.add(decagon);
 		Shape pentagon 	= new Pentagon();
 		shapes.add(pentagon);
-		Shape hexagon	= new Hexagon();
+		Shape hexagon = new Hexagon();
 		shapes.add(hexagon);
 		Shape square = new Square();		
 		shapes.add(square);
